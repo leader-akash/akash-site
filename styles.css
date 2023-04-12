@@ -5,6 +5,8 @@
 
 :root{
     --primary-color:#10b948;
+    --dark-grey: #6b7280;
+    --off-white: #f3f4f6;
 }
 
 
@@ -92,7 +94,35 @@ hr{
     font-weight: bold;
 }
 
+/* header */
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
 
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
 
+.hero .hero-heading{
+    padding-top: 1rem;
+    font-size: 3rem;
+    color: var(--dark-grey);
+}
 
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
 
+/* section */
+
+.section h2{
+ text-align: center;
+ padding: 2rem;
+}
+
+.off-white{
+    background-color: var(--off-white);
+}
