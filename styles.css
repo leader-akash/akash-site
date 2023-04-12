@@ -118,9 +118,13 @@ hr{
 
 /* section */
 
+.section{
+    padding: 2rem;
+}
+
 .section h2{
  text-align: center;
- padding: 2rem;
+ 
 }
 
 .off-white{
