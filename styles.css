@@ -17,6 +17,13 @@ hr {
   margin: 2rem 0rem;
 }
 
+/*  h2 size */
+
+.h2 .size{
+  font-size: 5rem;
+}
+
+
 /* spaces */
 
 .margin-md{
@@ -76,17 +83,18 @@ hr {
 .navigation {
   background-color: var(--primary-color);
   color: white;
-  padding: 0.5rem;
+  padding: 1rem;
   border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .navigation .link {
   color: white;
+  font-size: 1.2rem;
 }
 
 .nav-align {
@@ -100,7 +108,7 @@ hr {
 /* header */
 .hero {
   padding: 2rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
   text-align: center;
 }
 
@@ -137,7 +145,15 @@ hr {
 
 .center{
   text-align: center;
-  
+  font-size: large;
+}
+
+.size{
+  font-size: 2.5rem;
+}
+
+.color{
+  color: var(--primary-color);
 }
 
 /* footer */
