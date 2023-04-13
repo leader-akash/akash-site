@@ -107,6 +107,10 @@ hr {
 }
 
 /* header */
+
+
+
+
 .hero {
   padding: 2rem;
   padding-top: 3rem;
@@ -179,5 +183,11 @@ hr {
 
 }
 
+/* box model */
+/* .hero-heading{
+  border: 2px solid black;
+  padding: 50px;
+  margin: 30px;
 
+} */
 
