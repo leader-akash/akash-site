@@ -137,7 +137,7 @@ hr {
 /* section */
 
 .section {
-  padding: 2rem;
+  padding: 4rem;
 }
 
 .section h2 {
@@ -235,5 +235,30 @@ hr {
   padding: 10px;
 }
 
+/* icon section */
 
+.iconsDiv {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.iconsDiv .icon {
+  justify-content: center;
+  text-align: center;
+}
+
+.iconsDiv h3 {
+  font-weight: bold;
+}
+
+.iconsDiv div {
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
+}
+
+.iconsDiv .photoshop {
+  height: 77px;
+}
 
