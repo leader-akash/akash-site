@@ -199,11 +199,16 @@ hr {
 /* profile img */
 
 .profile-img{
-  width: 23%;
+  width: 22%;
   height: 60vh;
   margin-right: 50px;
+  object-fit: contain;
+}
 
-  border-radius: 40px;;
+.hero-profile-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;;
 }
 
 .set-content{
@@ -238,7 +243,11 @@ hr {
 /* icon section */
 
 .iconsDiv {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto ;
+  gap: 1rem;
+  grid-column: 6;
+  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
   margin-top: 3rem;
@@ -253,12 +262,14 @@ hr {
   font-weight: bold;
 }
 
+
 .iconsDiv div {
   margin-left: 1.4rem;
   margin-right: 1.4rem;
+
 }
 
-.iconsDiv .photoshop {
+.iconsDiv .skills-icon {
   height: 77px;
 }
 
