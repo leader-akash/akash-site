@@ -240,6 +240,12 @@ hr {
   padding: 10px;
 }
 
+/* skills */
+
+.skills-container{
+  height: auto;
+}
+
 /* icon section */
 
 .iconsDiv {
@@ -271,5 +277,68 @@ hr {
 
 .iconsDiv .skills-icon {
   height: 77px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 540px) {
+
+  .profile-img{
+    display: none;
+  }
+
+  .about-content{
+    padding: 0 1rem;;
+  }
+
+  .iconsDiv{
+    display: grid;
+    grid-template-columns: auto auto  ;
+    gap: 1rem;
+    grid-column: 2;
+    text-align: center;
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (min-width: 541px) and (max-width: 768px) {
+
+  .profile-img{
+    display: none;
+  }
+
+  .about-content{
+    padding: 1rem;
+  }
+
+  .iconsDiv{
+    grid-template-columns: auto auto auto ;
+
+  }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1280px) {
+
+  .profile-img{
+    display: none;
+  }
+
+  .about-content{
+    padding: 1rem;
+  }
+
+  .iconsDiv{
+    grid-template-columns: auto auto auto auto;
+
+  }
+
+}
+
+@media only screen and (min-width: 1281px) {
+
+  .iconsDiv{
+    grid-template-columns: auto auto auto auto auto auto;
+
+  }
+
 }
 
